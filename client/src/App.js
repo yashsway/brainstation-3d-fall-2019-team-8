@@ -1,9 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
-import Infinity from "./components/Infinity/Infinity.js";
+// import logo from './logo.svg';
+// import './App.scss';
 import Main from "./components/Main/Main.js";
 
+import Navigation from "./components/TopNavBar/topnav.js";
+import TabsBar from "./components/SideNavBar/index.js";
 import { Helmet } from 'react-helmet';
 
 function App() {
@@ -13,12 +14,21 @@ function App() {
           Add any meta tags you want, or any tag you want to go in the header. 
           You can modify everything else! */}
       <Helmet>
-        <title>Your App Title Here</title>
+        <title>Test</title>
       </Helmet>
-      <header className="App-header">
+      
         <Main>
         
         </Main>
+      <header>
+        {/* <Navigation></Navigation> */}
+        {/* <Infinity></Infinity> */}
+        <TabsBar></TabsBar>
+        {/* <p>
+
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <h2>Brainstation 3D Starter - Lindsay & Sahiba</h2> */}
       </header>
     </div>
   );
