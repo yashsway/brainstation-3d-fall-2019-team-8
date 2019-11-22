@@ -20,18 +20,13 @@ function App() {
         <title>Infinity 3D</title>
       </Helmet>
       
-<<<<<<< HEAD
        
       
-      <header className="logo-flex">
+        <header className="logo-flex">
             {/* <img className="logo" src={logo2}/> */}
             <img className="logoName" src={logoLet}/>
         </header>
         <Body></Body>
-=======
-        <Body></Body>
-      <header>
->>>>>>> master
         {/* <Navigation></Navigation> */}
         {/* <Infinity></Infinity> */}
         
