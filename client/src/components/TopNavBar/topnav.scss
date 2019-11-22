@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+
+
+.header{
+    background-color: #323232;
+  }
+.nav{
+    height:80px;
+    display:flex;
+    justify-content:space-between;
+    
+    align-items: center;
+    
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+.nav__logo {
+      height:25px;
+      margin-top:10px;
+      margin-bottom: 16px;
+      
+        padding-right:56px;  
+        margin-top: 24px;
+      
+      
+        padding-left:180px;
+    }
+    
+.nav__list{
+      display:flex;
+      justify-content: space-between;
+      width: 100%;
+      padding:0;
+      
+        margin-top: 16px;
+        justify-content:flex-start;
+        align-items:center;
+      }
+    
+.nav__item{
+      color:#AFAFAF;
+      
+      text-decoration: none;
+    //   @include font-h3-subheader();
+      list-style:none; 
+      width: 80px;
+      display: flex;
+      justify-content:center;
+      align-items: flex-start;
+      align-self: center;
+      
+        
+        padding-left:56px;
+        padding-right:56px;
+      
+    
+    &__item:hover{
+
+      
+      color:#0065AD;
+    }
+
+    &__item--change{ 
+        color:#FFFFFF;
+        border-bottom:0.3rem solid white;
+       
+         padding-top:22px;
+         padding-bottom:15px;
+        }
+    }
+      
+  
