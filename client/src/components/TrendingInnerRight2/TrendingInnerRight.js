@@ -1,11 +1,11 @@
 import React from 'react';
 import "./TrendingInnerRight.scss";
-import img1 from "../../assets/right/5.png";
-import img2 from "../../assets/right/4.png";
+import img1 from "../../assets/right/7.png";
+import img2 from "../../assets/right/6.png";
 import img3 from "../../assets/right/3.png";
 import img4 from "../../assets/right/1.jpg";
 import img5 from "../../assets/right/2.jpg";
-import img6 from "../../assets/right/6.png";
+import img6 from "../../assets/right/8.png";
 
 export default class TrendingInnerRight2 extends React.Component{
     render(){

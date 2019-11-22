@@ -20,7 +20,7 @@ export default class Main extends React.Component{
     render(){
         return(
             <>
-            <Header></Header>
+            {/* <Header></Header> */}
             <div className="main">
                 <TrendingOuterLeft clickHandle={this.clickHandle}></TrendingOuterLeft>
                 <TrendingOuterRight display={this.state.display}></TrendingOuterRight>

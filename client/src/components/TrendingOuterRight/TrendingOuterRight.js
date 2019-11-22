@@ -13,7 +13,7 @@ export default class TrendingOuterRight extends React.Component{
             </div>
         )} else {
             return(
-                <div className="container2"> SAHIBA
+                <div className="container2">
                 <TrendingInnerRight2></TrendingInnerRight2>
             </div>
             )
