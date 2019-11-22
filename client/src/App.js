@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 // import './App.scss';
-import Infinity from "./components/Infinity/Infinity.js";
+import Main from "./components/Main/Main.js";
+
 import Navigation from "./components/TopNavBar/topnav.js";
 import TabsBar from "./components/SideNavBar/index.js";
 import { Helmet } from 'react-helmet';
@@ -15,6 +16,10 @@ function App() {
       <Helmet>
         <title>Test</title>
       </Helmet>
+      
+        <Main>
+        
+        </Main>
       <header>
         {/* <Navigation></Navigation> */}
         {/* <Infinity></Infinity> */}
