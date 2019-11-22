@@ -20,6 +20,7 @@ function App() {
         <title>Infinity 3D</title>
       </Helmet>
       
+<<<<<<< HEAD
        
       
       <header className="logo-flex">
@@ -27,9 +28,13 @@ function App() {
             <img className="logoName" src={logoLet}/>
         </header>
         <Body></Body>
+=======
+        <Body></Body>
+      <header>
+>>>>>>> master
         {/* <Navigation></Navigation> */}
         {/* <Infinity></Infinity> */}
-        <TabsBar></TabsBar>
+        
         {/* <p>
 
           Edit <code>src/App.js</code> and save to reload.
