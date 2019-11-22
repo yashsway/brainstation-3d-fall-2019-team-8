@@ -7,7 +7,7 @@ import img4 from "../../assets/right/1.jpg";
 import img5 from "../../assets/right/2.jpg";
 import img6 from "../../assets/right/6.png";
 
-export default class TrendingInnerRight extends React.Component{
+export default class TrendingInnerRight2 extends React.Component{
     render(){
         return(
             <div className="container">

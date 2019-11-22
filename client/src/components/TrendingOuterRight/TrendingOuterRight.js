@@ -1,6 +1,7 @@
 import React from 'react';
 import "./TrendingOuterRight.scss";
 import TrendingInnerRight from "../TrendingInnerRight/TrendingInnerRight.js";
+import TrendingInnerRight2 from "../TrendingInnerRight2/TrendingInnerRight";
 
 export default class TrendingOuterRight extends React.Component{
     render(){
@@ -9,16 +10,11 @@ export default class TrendingOuterRight extends React.Component{
         return(
             <div className="container">
                 <TrendingInnerRight></TrendingInnerRight> 
-                {/* <TrendingInnerRight></TrendingInnerRight> 
-                <TrendingInnerRight></TrendingInnerRight> 
-                <TrendingInnerRight></TrendingInnerRight>  */}
             </div>
         )} else {
             return(
                 <div className="container2"> SAHIBA
-                {/* <TrendingInnerRight></TrendingInnerRight> 
-                <TrendingInnerRight></TrendingInnerRight> 
-                <TrendingInnerRight></TrendingInnerRight>  */}
+                <TrendingInnerRight2></TrendingInnerRight2>
             </div>
             )
         }
