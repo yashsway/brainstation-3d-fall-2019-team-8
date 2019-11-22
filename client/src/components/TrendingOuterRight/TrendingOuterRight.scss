@@ -1,0 +1,15 @@
+.container {
+    width: auto;
+    background-color: red;
+    border: 1px solid white;
+    height: 1000px;
+    overflow: scroll;
+}
+
+.container2 {
+    width: auto;
+    background-color: blue;
+    border: 1px solid red;
+    height: 100%;
+    overflow: scroll;
+}

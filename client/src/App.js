@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 // import './App.scss';
-import Main from "./components/Main/Main.js";
+// import Main from "./components/Main/Main.js";
+import Body from "./components/Body/body.js";
 
 import Navigation from "./components/TopNavBar/topnav.js";
 import TabsBar from "./components/SideNavBar/index.js";
@@ -17,13 +18,11 @@ function App() {
         <title>Test</title>
       </Helmet>
       
-        <Main>
-        
-        </Main>
+        <Body></Body>
       <header>
         {/* <Navigation></Navigation> */}
         {/* <Infinity></Infinity> */}
-        <TabsBar></TabsBar>
+        
         {/* <p>
 
           Edit <code>src/App.js</code> and save to reload.
